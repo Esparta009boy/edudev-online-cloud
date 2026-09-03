@@ -1,0 +1,12 @@
+{
+  "name": "edudev-online",
+  "version": "1.0.0",
+  "description": "Aplicação EduDev On-line",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
