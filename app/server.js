@@ -137,6 +137,6 @@ app.get('/health', (req, res) => {
     res.status(200).send("OK - Health Check Aprovado");
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Servidor EduDev On-line rodando na porta ${PORT}`);
 });
